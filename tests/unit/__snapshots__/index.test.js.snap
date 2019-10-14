@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Schema Testing QUERY_hello_withSnapshot 1`] = `"Hello"`;
+exports[`Resolver Testing Without Mock MUTATION_greet_withSnapshot 1`] = `"Welcome Chirag!"`;
+
+exports[`Schema Testing With Mocked Schema QUERY_hello_withSnapshot 1`] = `"Hello"`;

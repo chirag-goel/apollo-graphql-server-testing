@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const {
     ApolloServer,
     defaultPlaygroundOptions
@@ -30,6 +31,7 @@ const apolloServerConfig = {
 const server = new ApolloServer(apolloServerConfig);
 
 const app = express();
+app.use(express.static(path.resolve(__dirname, '..', './public')));
 server.applyMiddleware({
     app, path: '/api'
 });

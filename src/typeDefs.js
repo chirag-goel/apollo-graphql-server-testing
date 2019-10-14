@@ -5,7 +5,14 @@ const {
 // Construct a schema, using GraphQL schema language
 const typeDefs = gql `
   type Query {
-    hello: String
+    hello: String,
+    userData(userId: String!): UserDataRes
+  }
+
+  type UserDataRes {
+      firstName: String!
+      lastName: String!
+      website: String!
   }
 
   type Mutation {

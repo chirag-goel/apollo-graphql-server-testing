@@ -30,30 +30,31 @@
     "apollo-server-testing": "2.9.6",
     "express": "4.17.1",
     "jest": "24.9.0",
+    "node-fetch": "^2.6.0",
     "nodemon": "1.19.3"
   },
   "jest": {
     "moduleNameMapper": {
-        "^@src(.*)$": "<rootDir>/src$1"
+      "^@src(.*)$": "<rootDir>/src$1"
     },
     "moduleFileExtensions": [
-        "js",
-        "json",
-        "jsx",
-        "ts",
-        "tsx"
+      "js",
+      "json",
+      "jsx",
+      "ts",
+      "tsx"
     ],
     "moduleDirectories": [
-        "node_modules"
+      "node_modules"
     ],
     "testRegex": "(/tests/.*(test|spec)).(js|ts)$",
     "coverageThreshold": {
-        "global": {
-          "branches": 60,
-          "functions": 60,
-          "lines": 60,
-          "statements": 60
-        }
+      "global": {
+        "branches": 60,
+        "functions": 60,
+        "lines": 60,
+        "statements": 60
+      }
     }
-}
+  }
 }

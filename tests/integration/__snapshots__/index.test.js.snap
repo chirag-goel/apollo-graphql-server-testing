@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Integration Testing With Mocked DataSource QUERY_userData_withSnapshot 1`] = `
+Object {
+  "firstName": "Chirag",
+  "lastName": "Goel",
+  "website": "http://www.chirag-goel.in",
+}
+`;
