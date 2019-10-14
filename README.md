@@ -17,3 +17,6 @@ You can use `Code Coverage` [extension](https://marketplace.visualstudio.com/ite
 
 
 ![Demo](public/coverage.png)
+
+
+Author: [Chirag Goel](http://www.chirag-goel.in)
