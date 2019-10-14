@@ -1,0 +1,59 @@
+{
+  "name": "apollo-graphql-server-testing",
+  "version": "1.0.0",
+  "description": "Express integration with apollo graphql server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js  --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirag-goel/apollo-graphql-server-testing.git"
+  },
+  "keywords": [
+    "Apollo",
+    "GraphQl",
+    "Express",
+    "Server",
+    "Testing",
+    "Jest"
+  ],
+  "author": "Chirag Goel (www.chirag-goel.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chirag-goel/apollo-graphql-server-testing/issues"
+  },
+  "homepage": "https://github.com/chirag-goel/apollo-graphql-server-testing#readme",
+  "dependencies": {
+    "apollo-server-express": "2.9.6",
+    "apollo-server-testing": "2.9.6",
+    "express": "4.17.1",
+    "jest": "24.9.0",
+    "nodemon": "1.19.3"
+  },
+  "jest": {
+    "moduleNameMapper": {
+        "^@src(.*)$": "<rootDir>/src$1"
+    },
+    "moduleFileExtensions": [
+        "js",
+        "json",
+        "jsx",
+        "ts",
+        "tsx"
+    ],
+    "moduleDirectories": [
+        "node_modules"
+    ],
+    "testRegex": "(/tests/.*(test|spec)).(js|ts)$",
+    "coverageThreshold": {
+        "global": {
+          "branches": 60,
+          "functions": 60,
+          "lines": 60,
+          "statements": 60
+        }
+    }
+}
+}
